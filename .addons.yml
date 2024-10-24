@@ -1,0 +1,66 @@
+channel: stable
+addons:
+  appdaemon:
+    repository: Vioneta/addon-appdaemon
+    target: appdaemon
+    image: ghcr.io/vioneta/appdaemon/{arch}
+  chrony:
+    repository: Vioneta/addon-chrony
+    target: chrony
+    image: ghcr.io/vioneta/chrony/{arch}
+  emqx:
+    repository: Vioneta/addon-emqx
+    target: emqx
+    image: ghcr.io/vioneta/emqx/{arch}
+  ftp:
+    repository: Vioneta/addon-ftp
+    target: ftp
+    image: ghcr.io/vioneta/ftp/{arch}
+  glances:
+    repository: Vioneta/addon-glances
+    target: glances
+    image: ghcr.io/vioneta/glances/{arch}
+  grafana:
+    repository: Vioneta/addon-grafana
+    target: grafana
+    image: ghcr.io/vioneta/grafana/{arch}
+  influxdb:
+    repository: Vioneta/addon-influxdb
+    target: influxdb
+    image: ghcr.io/vioneta/influxdb/{arch}
+  jupyterlab:
+    repository: Vioneta/addon-jupyterlab
+    target: jupyterlab
+    image: ghcr.io/vioneta/jupyterlab/{arch}
+  mqtt-io:
+    repository: Vioneta/addon-mqtt-io
+    target: mqtt-io
+    image: ghcr.io/vioneta/mqtt-io/{arch}
+  nginxproxymanager:
+    repository: Vioneta/addon-nginx-proxy-manager
+    target: proxy-manager
+    image: ghcr.io/vioneta/nginxproxymanager/{arch}
+  tasmoadmin:
+    repository: Vioneta/addon-tasmoadmin
+    target: tasmoadmin
+    image: ghcr.io/vioneta/tasmoadmin/{arch}
+  ssh:
+    repository: Vioneta/addon-ssh
+    target: ssh
+    image: ghcr.io/vioneta/ssh/{arch}
+  traccar:
+    repository: Vioneta/addon-traccar
+    target: traccar
+    image: ghcr.io/vioneta/traccar/{arch}
+  vscode:
+    repository: Vioneta/addon-vscode
+    target: vscode
+    image: ghcr.io/vioneta/vscode/{arch}
+  wireguard:
+    repository: Vioneta/addon-wireguard
+    target: wireguard
+    image: ghcr.io/vioneta/wireguard/{arch}
+  zwave-js-ui:
+    repository: Vioneta/addon-zwave-js-ui
+    target: zwave-js-ui
+    image: ghcr.io/vioneta/zwave-js-ui/{arch}
